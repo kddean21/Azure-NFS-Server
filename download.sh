@@ -5,8 +5,8 @@ export HOME
 
 # apt-get -y update
 # apt-get -y install python3-pip libssl-dev libffi-dev npm
-yum -y update
-yum -y upgrade
+# yum -y update
+# yum -y upgrade
 yum -y install epel-release gcc libffi-devel openssl-devel python-devel
 yum -y install python-pip nodejs npm
 pip install blobxfer --upgrade  
